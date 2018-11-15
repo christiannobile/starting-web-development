@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(230, 217, 217);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(167, 157, 157);
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(214, 55, 95);
+    margin: 0.5em;
+    margin-bottom: 0px;
+}
+
+h2, strong {
+    text-align: center;
+    color: rgb(107, 104, 104);
+    margin: 0.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.timBernersLeeMugshot {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid rgb(184, 171, 171);
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: rgb(214, 55, 95);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 15px;;
+    padding: 15px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socialTab {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+}
+
+.socialTab * {
+    margin: 0 1em;
+    text-decoration: none;
+    color: rgb(167, 157, 157);
+}
+
+.movieTab {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.sectionSpace {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.sectionHulot {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.sectionAlien {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.alien, .lesVacancesDeMr, .spaceOddyssey {
+    width: 20%;
+    height: 20%;
+}
+
+.textSpace, .textHulot, .textAlien {
+    margin-left: 20px;
+}
